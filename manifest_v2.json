@@ -1,0 +1,32 @@
+{
+  "item": {
+    "id": "com.jpf.wrist.speedracer",
+    "restype": "quick_app",
+    "name": "极速飞车",
+    "description": "抬起手腕，漂移过弯！为小米手环 9 Pro 制作的离线赛车小游戏。\n左右倾斜控制转向，按住屏幕漂移；两级蓄力、出弯小喷和氮气加速，让直道与弯道都有竞速乐趣。也可切换触控操作。\n滨海赛道包含三个 90 度弯和连续 S 弯，与三辆赛车竞争，两圈按名次结算。支持暂停、本地纪录；倾斜比赛保持亮屏，结果页保留 15 秒亮屏。\n免费，无广告、无内购。0.2.3 已在小米手环 9 Pro（固件 3.1.175）试玩，并通过原生模拟器验证。其他设备暂未验证。",
+    "preview": [
+      "media/preview-corner.png",
+      "media/preview-drift.png",
+      "media/preview-home.png",
+      "media/preview-nitro.png",
+      "media/preview-result.png"
+    ],
+    "icon": "media/icon.png",
+    "cover": "media/cover.png",
+    "author": [
+      {
+        "name": "Jip79078",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb9p": {
+      "version": "0.2.3",
+      "file_name": "downloads/speed-racer-0.2.3.rpk",
+      "versionCode": 6
+    }
+  },
+  "ext": {}
+}
