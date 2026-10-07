@@ -3,13 +3,14 @@
     "id": "com.jpf.wrist.speedracer",
     "restype": "quick_app",
     "name": "极速飞车",
-    "description": "抬起手腕，漂移过弯！离线赛车小游戏，滨海赛道包含三个 90 度弯和连续 S 弯，与三辆赛车竞争，两圈按名次结算。两级漂移蓄力、出弯小喷和氮气加速，让直道与弯道都有竞速乐趣。支持暂停、本地纪录；倾斜比赛保持亮屏，结果页保留 15 秒亮屏。免费，无广告、无内购。\n\n设备与操控：\n• 小米手环 9 Pro：保留已实机试玩的 0.2.3 版本，支持倾斜或触控。倾斜转向时按住屏幕漂移。\n• 小米手环 10 Pro：新增 0.2.4 适配包，支持倾斜或触控；传感器不可用或无回调时自动切换触控。\n• REDMI Watch 6：新增 0.2.4 宽屏触控包，不支持倾斜操控。背景和赛道铺满宽度，车辆、按钮保持比例，速度读数避开圆角。按住左右半屏转向，持续按住进入漂移，松手出弯小喷；左上 N2O 使用氮气，右上暂停。\n\n适配说明：手环 10 Pro 与 REDMI Watch 6 仅在按目标屏幕尺寸配置的通用 Vela 模拟器中验证，未进行对应机型真机测试。模拟器验证了完整两圈比赛、90 度漂移、氮气、暂停重开及存档；实际固件兼容性、佩戴方向、流畅度和续航仍需实机反馈。红米设备虽有物理运动传感器，目前公开的快应用加速度计接口不支持该型号，因此红米版只提供触控操作。",
+    "description": "抬起手腕，漂移过弯！离线赛车小游戏，滨海赛道包含三个 90 度弯和连续 S 弯，与三辆赛车竞争，两圈按名次结算。两级漂移蓄力、出弯小喷和氮气加速，直道冲刺、弯道漂移。支持暂停、本地纪录；倾斜比赛保持亮屏，结果页保留 15 秒亮屏。免费，无广告、无内购。\n\n本次更新：\n• 小米手环 9 Pro / 10 Pro：0.2.9，优化氮气加速时的转向和回正，修正普通转向车头图片左右反向，改善高速弯道短按转向的响应。\n• 小米手环 10 / 11：新增 0.2.10 横屏适配（520×212），重新安排赛道、车辆、菜单和点击区域。氮气在左侧、暂停在右上角，弯道提示放左侧、结算居中。优化连续触控与滑动切换方向，并减少界面频繁更新。\n• REDMI Watch 6：0.2.9 宽屏触控版，赛道与背景铺满宽度，读数避开圆角；不支持倾斜操控。\n\n操控：倾斜模式下倾斜转向，按住屏幕漂移；触控模式下按住左右半屏转向，持续按住进入漂移，松手出弯小喷。点击 N2O 使用氮气。横屏版横向查看屏幕，按住时可以滑到另一半屏幕切换转向。传感器不可用或无回调时自动回退触控。\n\n验证范围：手环 9 Pro 有用户实机试玩反馈；手环 10 Pro、手环 10/11 横屏和 REDMI Watch 6 仅使用按目标尺寸配置的通用 Vela 模拟器适配，未进行对应机型真机测试。模拟器与实机的触控、流畅度、倾斜方向和续航可能不同，欢迎反馈。",
     "preview": [
       "media/preview-corner.png",
       "media/preview-drift.png",
       "media/preview-home.png",
       "media/preview-nitro.png",
-      "media/preview-result.png"
+      "media/preview-result.png",
+      "media/landscape-drift.png"
     ],
     "icon": "media/icon.png",
     "cover": "media/cover-cartoon-long.jpg",
@@ -23,15 +24,25 @@
   "links": [],
   "downloads": {
     "xmb9p": {
-      "version": "0.2.3",
-      "file_name": "downloads/speed-racer-0.2.3.rpk",
-      "versionCode": 6
+      "version": "0.2.9",
+      "file_name": "downloads/speed-racer-band9pro-0.2.9.rpk",
+      "versionCode": 12,
+      "updatelogs": [
+        {
+          "version": "0.2.9",
+          "content": "优化氮气加速时的转向、回正和高速抓地，减少发飘。\n修正普通转向时车头图片左右反向，改善高速弯道短按转向响应。\n保留已实机试玩正常的竖屏触控方式，倾斜与触控仍可切换。"
+        }
+      ]
     },
     "xmb10p": {
-      "version": "0.2.4",
-      "file_name": "downloads/speed-racer-band10pro-0.2.4.rpk",
-      "versionCode": 7,
+      "version": "0.2.9",
+      "file_name": "downloads/speed-racer-band10pro-0.2.9.rpk",
+      "versionCode": 12,
       "updatelogs": [
+        {
+          "version": "0.2.9",
+          "content": "优化氮气加速时的转向和回正，修正普通转向车头方向，改善高速弯道短按转向响应。\n支持倾斜或触控，传感器不可用或无回调时自动回退触控。\n仅完成按目标尺寸配置的通用 Vela 模拟器适配，未进行本机型真机测试。"
+        },
         {
           "version": "0.2.4",
           "content": "新增小米手环 10 Pro 适配，保留倾斜和触控；传感器不可用或无回调时自动回退触控。\n仅完成按目标尺寸配置的通用 Vela 模拟器验证（完整两圈比赛、90 度漂移及氮气等），未进行手环 10 Pro 真机测试。"
@@ -39,13 +50,39 @@
       ]
     },
     "xmrw6": {
-      "version": "0.2.4",
-      "file_name": "downloads/speed-racer-redmi-watch6-0.2.4.rpk",
-      "versionCode": 7,
+      "version": "0.2.9",
+      "file_name": "downloads/speed-racer-redmi-watch6-0.2.9.rpk",
+      "versionCode": 12,
       "updatelogs": [
+        {
+          "version": "0.2.9",
+          "content": "修正普通转向时车头图片方向，改善高速弯道短按转向响应及氮气操控稳定性。\n保留铺满宽度的赛道和避开圆角的读数；仅支持触控，不支持倾斜操控。\n仅完成按目标尺寸配置的通用 Vela 模拟器适配，未进行 REDMI Watch 6 真机测试。"
+        },
         {
           "version": "0.2.4",
           "content": "新增 REDMI Watch 6 宽屏触控适配：赛道与背景铺满宽度，车辆和按钮保持正常比例，顶部速度读数与暂停键避开圆角。\n本机型仅支持触控，不支持倾斜操控；按住左右半屏转向和漂移，松手小喷，点击左上 N2O 氮气加速。\n仅完成按目标尺寸配置的通用 Vela 模拟器验证，未进行 REDMI Watch 6 真机测试。"
+        }
+      ]
+    },
+    "xmb10": {
+      "version": "0.2.10",
+      "file_name": "downloads/speed-racer-band10-11-landscape-0.2.10.rpk",
+      "versionCode": 13,
+      "updatelogs": [
+        {
+          "version": "0.2.10",
+          "content": "新增手环 10/11 横屏适配：重排赛道、菜单和按钮，氮气在左侧、暂停在右上角，提示移到左侧、结算居中。\n采用固定全宽触控层，支持按住后跨左右滑动，减少漂移提示和能量条更新开销。\n仅使用按目标尺寸配置的通用 Vela 模拟器适配，未进行对应机型真机测试；实际触控、倾斜方向和流畅度需用户反馈。"
+        }
+      ]
+    },
+    "xmb11": {
+      "version": "0.2.10",
+      "file_name": "downloads/speed-racer-band10-11-landscape-0.2.10.rpk",
+      "versionCode": 13,
+      "updatelogs": [
+        {
+          "version": "0.2.10",
+          "content": "新增手环 10/11 横屏适配：重排赛道、菜单和按钮，氮气在左侧、暂停在右上角，提示移到左侧、结算居中。\n采用固定全宽触控层，支持按住后跨左右滑动，减少漂移提示和能量条更新开销。\n仅使用按目标尺寸配置的通用 Vela 模拟器适配，未进行对应机型真机测试；实际触控、倾斜方向和流畅度需用户反馈。"
         }
       ]
     }
