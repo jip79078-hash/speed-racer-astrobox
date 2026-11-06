@@ -147,10 +147,14 @@
       ]
     },
     "xmb10": {
-      "version": "0.4.3",
-      "file_name": "downloads/speed-racer-band10-11-endless-0.4.3.rpk",
-      "versionCode": 50,
+      "version": "0.4.12",
+      "file_name": "downloads/speed-racer-band10-release-0.4.12.rpk",
+      "versionCode": 59,
       "updatelogs": [
+        {
+          "version": "0.4.12",
+          "content": "同步横屏稳定性优化，减少倾斜传感器回调、折返弯贴图切换和重复赛道计算。已通过目标尺寸模拟器验证，欢迎手环 10 用户反馈实机表现。\n特别感谢玩家「楷」多次帮忙复现重启、提供日志并反复实机复测，协助定位问题和验证改动。"
+        },
         {
           "version": "0.4.3",
           "content": "新增无尽海岸，在滨海掉头弯躲开随机雪糕桶，累计撞桶三次后结算最远距离。地图与玩法合并为二级菜单，调整暂停页「退出游戏」文字居中。横屏车库新增暗夜 GT 和银箭 F1，分别在滨海赛道和折返街区夺冠解锁。本版本已在对应尺寸的 Vela 原生模拟器验证。"
@@ -194,10 +198,14 @@
       ]
     },
     "xmb11": {
-      "version": "0.4.3",
-      "file_name": "downloads/speed-racer-band10-11-endless-0.4.3.rpk",
-      "versionCode": 50,
+      "version": "0.4.12",
+      "file_name": "downloads/speed-racer-band11-release-0.4.12.rpk",
+      "versionCode": 59,
       "updatelogs": [
+        {
+          "version": "0.4.12",
+          "content": "减少重复赛道计算和调试开销，保留现有倾斜采样频率和弯道贴图。已通过目标尺寸模拟器验证。\n特别感谢玩家「楷」多次帮忙复现重启、提供日志并反复实机复测，协助定位问题和验证改动。"
+        },
         {
           "version": "0.4.3",
           "content": "新增无尽海岸，在滨海掉头弯躲开随机雪糕桶，累计撞桶三次后结算最远距离。地图与玩法合并为二级菜单，调整暂停页「退出游戏」文字居中。横屏车库新增暗夜 GT 和银箭 F1，分别在滨海赛道和折返街区夺冠解锁。本版本已在对应尺寸的 Vela 原生模拟器验证。"
@@ -241,10 +249,14 @@
       ]
     },
     "xmb9": {
-      "version": "0.4.3",
-      "file_name": "downloads/speed-racer-band9-endless-0.4.3.rpk",
-      "versionCode": 50,
+      "version": "0.4.12",
+      "file_name": "downloads/speed-racer-band9-perf-0.4.12.rpk",
+      "versionCode": 59,
       "updatelogs": [
+        {
+          "version": "0.4.12",
+          "content": "优化横屏长时间游玩的稳定性，减少倾斜传感器回调、折返弯贴图切换和重复赛道计算。手环 9 已经多轮真机试玩，反馈比上一版更流畅。\n特别感谢玩家「楷」多次帮忙复现重启、提供日志并反复实机复测，协助定位问题和验证改动。"
+        },
         {
           "version": "0.4.3",
           "content": "新增无尽海岸，在滨海掉头弯躲开随机雪糕桶，累计撞桶三次后结算最远距离。地图与玩法合并为二级菜单，调整暂停页「退出游戏」文字居中。横屏车库新增暗夜 GT 和银箭 F1，分别在滨海赛道和折返街区夺冠解锁。本版本已在对应尺寸的 Vela 原生模拟器验证。"
@@ -315,10 +327,14 @@
       ]
     },
     "xmb10nfc": {
-      "version": "0.4.3",
-      "file_name": "downloads/speed-racer-band10-11-endless-0.4.3.rpk",
-      "versionCode": 50,
+      "version": "0.4.12",
+      "file_name": "downloads/speed-racer-band10-release-0.4.12.rpk",
+      "versionCode": 59,
       "updatelogs": [
+        {
+          "version": "0.4.12",
+          "content": "同步横屏稳定性优化，减少倾斜传感器回调、折返弯贴图切换和重复赛道计算。已通过目标尺寸模拟器验证，欢迎手环 10 用户反馈实机表现。\n特别感谢玩家「楷」多次帮忙复现重启、提供日志并反复实机复测，协助定位问题和验证改动。"
+        },
         {
           "version": "0.4.3",
           "content": "新增无尽海岸，在滨海掉头弯躲开随机雪糕桶，累计撞桶三次后结算最远距离。地图与玩法合并为二级菜单，调整暂停页「退出游戏」文字居中。横屏车库新增暗夜 GT 和银箭 F1，分别在滨海赛道和折返街区夺冠解锁。本版本已在对应尺寸的 Vela 原生模拟器验证。"
@@ -346,10 +362,14 @@
       ]
     },
     "xmb11nfc": {
-      "version": "0.4.3",
-      "file_name": "downloads/speed-racer-band10-11-endless-0.4.3.rpk",
-      "versionCode": 50,
+      "version": "0.4.12",
+      "file_name": "downloads/speed-racer-band11-release-0.4.12.rpk",
+      "versionCode": 59,
       "updatelogs": [
+        {
+          "version": "0.4.12",
+          "content": "减少重复赛道计算和调试开销，保留现有倾斜采样频率和弯道贴图。已通过目标尺寸模拟器验证。\n特别感谢玩家「楷」多次帮忙复现重启、提供日志并反复实机复测，协助定位问题和验证改动。"
+        },
         {
           "version": "0.4.3",
           "content": "新增无尽海岸，在滨海掉头弯躲开随机雪糕桶，累计撞桶三次后结算最远距离。地图与玩法合并为二级菜单，调整暂停页「退出游戏」文字居中。横屏车库新增暗夜 GT 和银箭 F1，分别在滨海赛道和折返街区夺冠解锁。本版本已在对应尺寸的 Vela 原生模拟器验证。"
