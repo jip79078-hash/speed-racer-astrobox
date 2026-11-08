@@ -65,10 +65,14 @@
       ]
     },
     "xmb10p": {
-      "version": "0.4.3",
-      "file_name": "downloads/speed-racer-band10pro-endless-0.4.3.rpk",
-      "versionCode": 50,
+      "version": "0.4.15",
+      "file_name": "downloads/speed-racer-band10pro-startup-0.4.15.rpk",
+      "versionCode": 62,
       "updatelogs": [
+        {
+          "version": "0.4.15",
+          "content": "优化首页背景加载，降低打开游戏时的内存分配峰值，针对部分玩家反馈的启动重启问题。已完成目标尺寸模拟器验证，欢迎反馈真机表现。"
+        },
         {
           "version": "0.4.3",
           "content": "新增无尽海岸，在滨海掉头弯躲开随机雪糕桶，累计撞桶三次后结算最远距离。地图与玩法合并为二级菜单，调整暂停页「退出游戏」文字居中。车库支持暗夜 GT 和银箭 F1。本版本已在对应尺寸的 Vela 原生模拟器验证。"
@@ -147,10 +151,14 @@
       ]
     },
     "xmb10": {
-      "version": "0.4.12",
-      "file_name": "downloads/speed-racer-band10-release-0.4.12.rpk",
-      "versionCode": 59,
+      "version": "0.4.15",
+      "file_name": "downloads/speed-racer-band10-render-0.4.15.rpk",
+      "versionCode": 62,
       "updatelogs": [
+        {
+          "version": "0.4.15",
+          "content": "降低横屏比赛场景绘制负载，优化启动背景加载。感谢玩家协助测试，米环 10 真机试玩反馈本版未再重启。比赛画面更新约 15 次/秒，操控和物理按原节奏运行。"
+        },
         {
           "version": "0.4.12",
           "content": "同步横屏稳定性优化，减少倾斜传感器回调、折返弯贴图切换和重复赛道计算。已通过目标尺寸模拟器验证，欢迎手环 10 用户反馈实机表现。\n特别感谢玩家「楷」多次帮忙复现重启、提供日志并反复实机复测，协助定位问题和验证改动。"
@@ -198,10 +206,14 @@
       ]
     },
     "xmb11": {
-      "version": "0.4.12",
-      "file_name": "downloads/speed-racer-band11-release-0.4.12.rpk",
-      "versionCode": 59,
+      "version": "0.4.15",
+      "file_name": "downloads/speed-racer-band10-render-0.4.15.rpk",
+      "versionCode": 62,
       "updatelogs": [
+        {
+          "version": "0.4.15",
+          "content": "降低横屏比赛场景绘制负载，优化启动背景加载。米环 10 玩家实机反馈本版未再重启。米环 11 已按相同尺寸在模拟器验证，欢迎反馈真机表现。比赛画面更新约 15 次/秒，操控和物理按原节奏运行。"
+        },
         {
           "version": "0.4.12",
           "content": "减少重复赛道计算和调试开销，保留现有倾斜采样频率和弯道贴图。已通过目标尺寸模拟器验证。\n特别感谢玩家「楷」多次帮忙复现重启、提供日志并反复实机复测，协助定位问题和验证改动。"
@@ -327,10 +339,14 @@
       ]
     },
     "xmb10nfc": {
-      "version": "0.4.12",
-      "file_name": "downloads/speed-racer-band10-release-0.4.12.rpk",
-      "versionCode": 59,
+      "version": "0.4.15",
+      "file_name": "downloads/speed-racer-band10-render-0.4.15.rpk",
+      "versionCode": 62,
       "updatelogs": [
+        {
+          "version": "0.4.15",
+          "content": "降低横屏比赛场景绘制负载，优化启动背景加载。米环 10 玩家实机反馈本版未再重启，10 NFC 共用同一安装包。比赛画面更新约 15 次/秒，操控和物理按原节奏运行。"
+        },
         {
           "version": "0.4.12",
           "content": "同步横屏稳定性优化，减少倾斜传感器回调、折返弯贴图切换和重复赛道计算。已通过目标尺寸模拟器验证，欢迎手环 10 用户反馈实机表现。\n特别感谢玩家「楷」多次帮忙复现重启、提供日志并反复实机复测，协助定位问题和验证改动。"
@@ -362,10 +378,14 @@
       ]
     },
     "xmb11nfc": {
-      "version": "0.4.12",
-      "file_name": "downloads/speed-racer-band11-release-0.4.12.rpk",
-      "versionCode": 59,
+      "version": "0.4.15",
+      "file_name": "downloads/speed-racer-band10-render-0.4.15.rpk",
+      "versionCode": 62,
       "updatelogs": [
+        {
+          "version": "0.4.15",
+          "content": "降低横屏比赛场景绘制负载，优化启动背景加载。米环 10 玩家实机反馈本版未再重启。米环 11 NFC 已按相同尺寸在模拟器验证，欢迎反馈真机表现。比赛画面更新约 15 次/秒，操控和物理按原节奏运行。"
+        },
         {
           "version": "0.4.12",
           "content": "减少重复赛道计算和调试开销，保留现有倾斜采样频率和弯道贴图。已通过目标尺寸模拟器验证。\n特别感谢玩家「楷」多次帮忙复现重启、提供日志并反复实机复测，协助定位问题和验证改动。"
